@@ -5,9 +5,9 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "ru.blackloto"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. blackloto.ru</name>
+    <name>ТЕСТ. Black Loto</name>
 
     <description>
         Мини игры с выводом реальных денег!
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#06196B" />
+    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -47,10 +47,10 @@
         <icon src="res/android/icon/ade001e1f7dd2f45a5ca3b0590af8776.png" density="xxhdpi" />
         <icon src="res/android/icon/8afb56621977d2198af2247e02c3133d.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/e869af565ed57dee605603a75fb6119d.png" density="port-hdpi"/>
-        <splash src="res/android/screen/4e0b0cbccbb3a4dd71cda9f02213c4e9.png" density="port-ldpi"/>
-        <splash src="res/android/screen/d33fe514478d670285ec69de611d0b23.png" density="port-mdpi"/>
-        <splash src="res/android/screen/5819bba8997d980b8bb52cc2599a5f98.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/03b734fda3a02b36edd0ae90f491fccc.png" density="port-hdpi"/>
+        <splash src="res/android/screen/678cef55ebf2507abbc603bc91c4a7dd.png" density="port-ldpi"/>
+        <splash src="res/android/screen/fa6ae8713ef929e8db6d4803ce4d6f00.png" density="port-mdpi"/>
+        <splash src="res/android/screen/28bc47c57db1839a110b0fc652bf8c93.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
@@ -69,12 +69,12 @@
         <icon src="res/ios/icon/4507a29174d6c84f50303768d44a0d06.png" width="87" height="87" />
         <icon src="res/ios/icon/40aa6084a06a7203fea97dd98eead875.png" width="167" height="167" />
 
-        <splash src="res/ios/screen/6af9d79ace2feefa9177a302fcebc4e1.png" />
-        <splash src="res/ios/screen/09b718721e2589a50c50e3f7a13ff167.png" />
-        <splash src="res/ios/screen/27b1291e9a2f680558a71d8e64f3619f.png" />
-        <splash src="res/ios/screen/e5ae2b088229c9a2d64d45509e1f688a.png" />
-        <splash src="res/ios/screen/0d6989bc805c660e214b590b6af55889.png" />
-        <splash src="res/ios/screen/b05bfd757b96985f5bef7e184f7d9202.png" />
+        <splash src="res/ios/screen/d70bc50cc715350ec7e61bcd41234d11.png" />
+        <splash src="res/ios/screen/1fe8bc1b8d228dad048c8fd5d6be4fb6.png" />
+        <splash src="res/ios/screen/ef79a6e9e3e9f09566f7c1b21ccb312b.png" />
+        <splash src="res/ios/screen/7581a4d95498e6ff57b30cd83b12763e.png" />
+        <splash src="res/ios/screen/f4d42d6af8001d8336c6bd8a55f189ab.png" />
+        <splash src="res/ios/screen/188f39a7cb52350aa75947693af55060.png" />
     </platform>
 
     <platform name="winphone">
@@ -86,8 +86,8 @@
         <icon src="res/windows/icon/74851181df5d2a837e0f1f3a275158d5.png" target="Square150x150Logo" />
         <icon src="res/windows/icon/990d16e52f84a6373377265674800323.png" target="Square310x310Logo" />
 
-        <splash src="res/windows/screen/900ad53f9bbbd71c558e8ba7386f461b.png" target="SplashScreen"/>
-        <splash src="res/windows/screen/dec02b5c96ce1a859306f9e8c826f96e.png" target="SplashScreenPhone"/>
+        <splash src="res/windows/screen/6725eefaab7cce0791daef588ef68358.png" target="SplashScreen"/>
+        <splash src="res/windows/screen/39451f27eabcde4be8834aae3e94a69b.png" target="SplashScreenPhone"/>
     </platform>
 
     <access origin='*'/>
